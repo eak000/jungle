@@ -1,0 +1,96 @@
+
+body{
+	background-color: #000000;
+	/*background: url(images/jungle.jpg) no-repeat;
+	background-size: 1800px;*/
+}
+
+#content {
+	margin: 0 auto;
+}
+
+#jungle {
+	width: 1200px;
+	background: black url(images/jungle.jpg) no-repeat;
+	background-size: 1200px;
+  margin: 0 auto;
+  min-height: 800px;
+}	
+
+#eyes {
+	width:100%;
+	margin: 0 auto;
+	background: black;
+	display: none;
+}
+
+#eyes1 {
+	display: inline-block;
+	position:fixed;
+	left: 300px;
+	top: 110px;
+	width: 150px;	
+	transform:rotate(7deg);
+	-ms-transform:rotate(7deg); /* IE 9 */
+	-webkit-transform:rotate(7deg); /* Opera, Chrome, and Safari */
+}
+
+#eyes2 {
+	display: inline-block;
+	position:fixed;
+	left: 550px;
+	top: 196px;
+	width: 315px;
+	transform:rotate(5deg);
+	-ms-transform:rotate(5deg); /* IE 9 */
+	-webkit-transform:rotate(5deg); /* Opera, Chrome, and Safari */
+}
+
+#eyes3 {
+	display: inline-block;
+	position:fixed;
+	left: 120px;
+	top: 247px;
+	width: 399px;
+	transform:rotate(-4deg);
+	-ms-transform:rotate(-4deg); /* IE 9 */
+	-webkit-transform:rotate(-4deg); /* Opera, Chrome, and Safari */
+}
+
+#eyes4 {
+	display: inline-block;
+	position:fixed;
+	left: 632px;
+	top: 457px;
+	width: 250px;
+	transform:rotate(-8deg);
+	-ms-transform:rotate(-8deg); /* IE 9 */
+	-webkit-transform:rotate(-8deg); /* Opera, Chrome, and Safari */
+}
+
+#eyes5 {
+	display: inline-block;
+	position:fixed;
+	left: 275px;
+	top: 500px;
+	width: 225px;
+	transform:rotate(14deg);
+	-ms-transform:rotate(14deg); /* IE 9 */
+	-webkit-transform:rotate(14deg); /* Opera, Chrome, and Safari */
+}
+
+p {
+	color: #999999;
+	font-size: 30px;
+	font-family: sans-serif;
+	margin: 0 auto;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #999999;
+}
+
+
+
