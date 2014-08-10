@@ -13,7 +13,7 @@ $.fn.clicktoggle = function(a, b) {
 }; //thanks to Keven B on jquery forum
 
 function night() {
-   	$("#jungle").fadeOut("slow");
+   	$("#jungle").fadeOut("fast");
    	$("#eyes").fadeIn("slow", animate());
    	$("#time").text("Click to make it day")
  }; //night end

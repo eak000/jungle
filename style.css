@@ -18,15 +18,15 @@ body{
 }	
 
 #eyes {
-	width:100%;
+	/*width:100%;*/
 	margin: 0 auto;
 	background: black;
 	display: none;
+	position:relative;
 }
 
 #eyes1 {
-	display: inline-block;
-	position:fixed;
+	position:absolute;
 	left: 300px;
 	top: 110px;
 	width: 150px;	
@@ -36,8 +36,7 @@ body{
 }
 
 #eyes2 {
-	display: inline-block;
-	position:fixed;
+	position:absolute;
 	left: 550px;
 	top: 196px;
 	width: 315px;
@@ -47,8 +46,7 @@ body{
 }
 
 #eyes3 {
-	display: inline-block;
-	position:fixed;
+	position:absolute;
 	left: 120px;
 	top: 247px;
 	width: 399px;
@@ -58,8 +56,7 @@ body{
 }
 
 #eyes4 {
-	display: inline-block;
-	position:fixed;
+	position:absolute;
 	left: 632px;
 	top: 457px;
 	width: 250px;
@@ -69,8 +66,7 @@ body{
 }
 
 #eyes5 {
-	display: inline-block;
-	position:fixed;
+	position: absolute;
 	left: 275px;
 	top: 500px;
 	width: 225px;
